@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "88e3a57d-8d85-4d93-a4cc-aeba9fa1666e",
+    "uuid": "88e3a57d-8d85-4d93-a4cc-aeba9fa1666e",
+    "name": "AppToCreateDisussion",
+    "description": "Description for app",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2017-05-15T05:39:35.268Z"
+  }
+}

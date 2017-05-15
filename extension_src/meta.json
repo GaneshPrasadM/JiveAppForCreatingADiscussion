@@ -1,0 +1,16 @@
+{
+    "package_version": "1.0",
+    "id": "88e3a57d-8d85-4d93-a4cc-aeba9fa1666e",
+    "type": "client-app",
+    "name": "AppToCreateDisussion",
+    "description": "Description for app",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2017-05-15T05:39:35.268Z",
+    "service_url": "https://1a777bc8.ngrok.io"
+}

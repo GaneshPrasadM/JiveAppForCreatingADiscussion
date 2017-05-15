@@ -1,0 +1,13 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "osapps": [
+        {
+            "id": "bb42c789-d44a-4884-ba45-27057d0fb6bb",
+            "name": " Reference App",
+            "appPath": "bb42c789d44a4884ba4527057d0fb6bb",
+            "url": "%serviceURL%/osapp/simpleapp/app.xml?ts=1494840447558"
+        }
+    ]
+}

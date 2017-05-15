@@ -1,0 +1,100 @@
+[2017-05-15 14:57:27.506] [DEBUG] jive-sdk - File persistence dir at 'db'
+[2017-05-15 14:57:27.515] [DEBUG] jive-sdk - Setting up osapp at D:\MYNewJiveProjects\JiveAppForCreatingADisscussion/apps/simpleapp
+[2017-05-15 14:57:27.518] [INFO] jive-sdk - Running bootstrap.
+[2017-05-15 14:57:27.519] [DEBUG] jive-sdk - Registered system event  newInstance :  Framework handler
+[2017-05-15 14:57:27.519] [DEBUG] jive-sdk - Registered system event  updateInstance :  Framework handler
+[2017-05-15 14:57:27.520] [DEBUG] jive-sdk - Registered system event  destroyedInstance :  Framework handler
+[2017-05-15 14:57:27.520] [DEBUG] jive-sdk - Registered system event  dataPushed :  Framework handler
+[2017-05-15 14:57:27.520] [DEBUG] jive-sdk - Registered system event  activityPushed :  Framework handler
+[2017-05-15 14:57:27.521] [DEBUG] jive-sdk - Registered system event  commentPushed :  Framework handler
+[2017-05-15 14:57:27.521] [DEBUG] jive-sdk - Registered system event  pushDataToJive :  Framework handler
+[2017-05-15 14:57:27.521] [DEBUG] jive-sdk - Registered system event  pushActivityToJive :  Framework handler
+[2017-05-15 14:57:27.521] [DEBUG] jive-sdk - Registered system event  fetchActivityByExternalIDFromJive :  Framework handler
+[2017-05-15 14:57:27.522] [DEBUG] jive-sdk - Registered system event  updateActivityToJive :  Framework handler
+[2017-05-15 14:57:27.522] [DEBUG] jive-sdk - Registered system event  pushCommentToJive :  Framework handler
+[2017-05-15 14:57:27.522] [DEBUG] jive-sdk - Registered system event  commentOnActivity :  Framework handler
+[2017-05-15 14:57:27.523] [DEBUG] jive-sdk - Registered system event  commentOnActivityByExternalID :  Framework handler
+[2017-05-15 14:57:27.523] [DEBUG] jive-sdk - Registered system event  fetchCommentsOnActivity :  Framework handler
+[2017-05-15 14:57:27.524] [DEBUG] jive-sdk - Registered system event  fetchCommentOnActivityByExternalID :  no description
+[2017-05-15 14:57:27.524] [DEBUG] jive-sdk - Registered system event  fetchActivityByExternalIDFromJive :  Framework handler
+[2017-05-15 14:57:27.525] [DEBUG] jive-sdk - Registered system event  fetchAllCommentsForExtstream :  Framework handler
+[2017-05-15 14:57:27.525] [DEBUG] jive-sdk - Registered system event  registration :  no description
+[2017-05-15 14:57:27.525] [DEBUG] jive-sdk - Registered system event  unregistration :  no description
+[2017-05-15 14:57:27.526] [DEBUG] jive-sdk - Registered system event  clientAppRegistration :  Framework handler
+[2017-05-15 14:57:27.526] [DEBUG] jive-sdk - Registered system event  clientAppUnregistration :  Framework handler
+[2017-05-15 14:57:27.526] [DEBUG] jive-sdk - Registered system event  getPaginatedResults :  Framework handler
+[2017-05-15 14:57:27.527] [DEBUG] jive-sdk - Registered system event  getExternalProps :  Framework handler
+[2017-05-15 14:57:27.528] [DEBUG] jive-sdk - Registered system event  setExternalProps :  Framework handler
+[2017-05-15 14:57:27.528] [DEBUG] jive-sdk - Registered system event  deleteExternalProps :  Framework handler
+[2017-05-15 14:57:27.529] [WARN] jive-sdk - Starting service in HTTP mode
+[2017-05-15 14:57:27.531] [DEBUG] jive-sdk - Global framework routes:
+[2017-05-15 14:57:27.532] [DEBUG] jive-sdk - POST /registration
+[2017-05-15 14:57:27.532] [DEBUG] jive-sdk - POST /unregister
+[2017-05-15 14:57:27.532] [DEBUG] jive-sdk - POST /jive/oauth/register
+[2017-05-15 14:57:27.533] [DEBUG] jive-sdk - Global dev framework routes:
+[2017-05-15 14:57:27.534] [DEBUG] jive-sdk - /dev/tiles
+[2017-05-15 14:57:27.535] [DEBUG] jive-sdk - setupExpressApp - Complete.
+[2017-05-15 14:57:27.535] [INFO] jive-sdk - Http node setup
+[2017-05-15 14:57:27.556] [DEBUG] jive-sdk - definitions:
+[]
+[2017-05-15 14:57:27.556] [DEBUG] jive-sdk - templates:
+[]
+[2017-05-15 14:57:27.557] [DEBUG] jive-sdk - apps:
+[
+    {
+        "id": "bb42c789-d44a-4884-ba45-27057d0fb6bb",
+        "name": " Reference App",
+        "appPath": "bb42c789d44a4884ba4527057d0fb6bb",
+        "url": "%serviceURL%/osapp/simpleapp/app.xml"
+    }
+]
+[2017-05-15 14:57:27.557] [DEBUG] jive-sdk - storageDefinitions:
+[]
+[2017-05-15 14:57:27.558] [DEBUG] jive-sdk - cartridges:
+[]
+[2017-05-15 14:57:27.564] [DEBUG] jive-sdk - Extension meta: 
+{
+    "package_version": "1.0",
+    "id": "88e3a57d-8d85-4d93-a4cc-aeba9fa1666e",
+    "type": "client-app",
+    "name": "AppToCreateDisussion",
+    "description": "Description for app",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "register_url": "%serviceURL%/jive/oauth/register",
+    "unregister_url": "%serviceURL%/jive/oauth/unregister",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2017-05-15T05:39:35.268Z",
+    "service_url": "https://1a777bc8.ngrok.io"
+}
+[2017-05-15 14:57:27.700] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
+[2017-05-15 14:57:27.703] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
+[2017-05-15 14:57:27.723] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
+[2017-05-15 14:57:27.724] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
+[2017-05-15 14:57:27.725] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
+[2017-05-15 14:57:27.725] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
+[2017-05-15 14:57:27.726] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
+[2017-05-15 14:57:27.726] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
+[2017-05-15 14:57:27.727] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
+[2017-05-15 14:57:27.727] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
+[2017-05-15 14:57:27.728] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2017-05-15 14:57:27.730] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2017-05-15 14:57:27.731] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2017-05-15 14:57:27.791] [INFO] jive-sdk - Bootstrap complete.
+[2017-05-15 14:57:27.791] [INFO] jive-sdk - Jive SDK version 0.2.17
+[2017-05-15 14:57:27.791] [INFO] jive-sdk - Started service in  self-contained mode
+[2017-05-15 14:57:27.792] [INFO] jive-sdk - Service started in development mode
+[2017-05-15 14:57:42.510] [INFO] jive-sdk - Updated 1 data file(s): [jiveExtension]
+[2017-05-15 14:59:05.135] [DEBUG] jive-sdk - Received client app registration { clientId: 'g6bea3kflum5c3cdpppaduhq1ur35gfz.i',
+  tenantId: 'b7a1df78-a889-4f11-9ed9-a9a8b4d091f0',
+  jiveSignatureURL: 'https://market.apps.jivesoftware.com/appsmarket/services/rest/jive/instance/validation/0538280e-0bf5-4fd3-8525-471e0d8b0126',
+  clientSecret: '6f7dz0ptymw4pnmozf06w70se4flofy3.s',
+  jiveSignature: 'GKLZtDhNZvRLgnhpC8AZG9c/olYlAo4bp9s8qWEzBYY=',
+  jiveUrl: 'https://ionidea-test.jiveon.com',
+  timestamp: '2017-05-15T09:29:05.155+0000' }
+[2017-05-15 14:59:05.139] [DEBUG] jive-sdk - Scheduled task: clientAppRegistration immediate
+[2017-05-15 14:59:05.140] [WARN] jive-sdk - Warning - development mode is on. Accepting extension registration request regardless of source!
+[2017-05-15 14:59:05.141] [DEBUG] jive-sdk - Successful registration request, proceeding.
+[2017-05-15 14:59:12.520] [INFO] jive-sdk - Updated 1 data file(s): [community]
